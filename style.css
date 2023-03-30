@@ -1,0 +1,40 @@
+/* div{
+    background-color: grey;
+    border: 2px solid black;
+} */
+h2{
+    text-align: center;
+    background-color: black;
+    color: wheat;
+
+}
+input{
+    width: 25px;
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+#calc{
+    width: 180px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 5px; 
+}
+#clear{
+    width: 180px;
+    background-color: gray;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 5px;
+}

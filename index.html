@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- <h1>Creating HTML Tags using Js</h1> 
+
+   <div id="div1">
+
+   </div>
+
+   <input placeholder="enter tour data" id="input_text">
+   <br><br>
+
+   <button onclick="create_html_tag()">submit</button> -->
+
+
+
+   <!-- simple calculator -->
+   <h2>simple calculator</h2>
+   <div class="calc_form">
+   <form name="form1">
+    <input id="calc" type="text" name="result">
+    <br> <br>
+
+    <!-- form1 la iruka result la irukum value empty so empty oda all values um add panrom
+    -->
+    <input type="button" value="1" onclick="form1.result.value = form1.result.value+'1'" > 
+    <input type="button" value="2" onclick="form1.result.value = form1.result.value+'2'">
+    <input type="button" value="3" onclick="form1.result.value = form1.result.value+'3'">
+    <input type="button" value="+" onclick="form1.result.value = form1.result.value+'+'">
+
+    <br> <br>
+
+    <input type="button" value="4" onclick="form1.result.value = form1.result.value+'4'">
+    <input type="button" value="5" onclick="form1.result.value = form1.result.value+'5'">
+    <input type="button" value="6" onclick="form1.result.value = form1.result.value+'6'">
+    <input type="button" value="-" onclick="form1.result.value = form1.result.value+'-'">
+
+    <br> <br>
+
+    <input type="button" value="7" onclick="form1.result.value = form1.result.value+'7'">
+    <input type="button" value="8" onclick="form1.result.value = form1.result.value+'8'">
+    <input type="button" value="9" onclick="form1.result.value = form1.result.value+'9'">
+    <input type="button" value="*" onclick="form1.result.value = form1.result.value+'*'">
+
+    <br> <br>
+
+    <input type="button" value="0" onclick="form1.result.value = form1.result.value+'0'">
+    <input type="button" value="/" onclick="form1.result.value = form1.result.value+'/'">
+    <input type="button" value="." onclick="form1.result.value = form1.result.value+'.'">
+    <input type="button" value="=" onclick="form1.result.value = eval(form1.result.value)">
+
+    <br><br>
+    <input type="button" id="clear" value="Claer All" onclick="form1.result.value = ''">
+
+
+   </form>
+   </div>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
